@@ -1,0 +1,98 @@
+/*
+
+selector {
+
+    Property: value;
+    property: value;
+    property: value;
+
+}
+
+writing selectors:
+
+tagname-> selects all tags of a given type
+.classname-> selects all members of a give class
+tagname.classname-> selects only tags that are also members of a given class
+
+> -> child symbol
+
+tagname> tagname
+tagname>.classname
+.classname>.classname
+.classname>tagname
+
+*/
+.nav{
+    list-style-type: none;
+    
+    padding-left: 0;
+    
+    width: 10%;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.nav>li {
+    border-style: ridge;
+    border-radius: 10px;
+    display: inline-block;
+
+    background-color: rgb(230, 200, 31);
+}
+
+.nav>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav>li>a:hover {
+    background-color: rgb(231, 231, 1);
+}
+
+
+img{
+    display: inline-block;
+    width: 10%;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+}
+
+body{
+    background-image: url(images/antique-maps-old-cartographic-maps-antique-map-of-paris-studio-grafiikka.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-color: white;
+}
+
+
+h1{
+
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    display: inline-block;
+}
+
+.side {
+    display: inline-block;
+    width: 30%;
+    height: 400px;
+
+
+}
+
+p{
+    background-color: white;
+    font-size: 20pt;
+}
+
+dd{
+background-color: rgb(224, 188, 147);
+width: 30%;
+margin: auto;
+border-radius: 10px;
+}
